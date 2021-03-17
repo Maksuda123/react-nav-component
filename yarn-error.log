@@ -1,0 +1,68 @@
+Arguments: 
+  E:\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\;C:\Program Files (x86)\Yarn\bin\;C:\Users\maksu\AppData\Local\Microsoft\WindowsApps;C:\xampp\php;C:\Users\maksu\AppData\Local\ComposerSetup\bin;C:\Users\maksu\AppData\Roaming\Composer\vendor\bin;E:\Microsoft VS Code\bin;C:\Users\maksu\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\maksu\AppData\Roaming\npm;C:\Users\maksu\AppData\Local\Yarn\bin;E:\software\heroku\bin;C:\Users\maksu\AppData\Local\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\4.4\bin;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  15.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.6.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141376:19)
+      at Object.onceWrapper (node:events:482:28)
+      at ClientRequest.emit (node:events:376:20)
+      at TLSSocket.emitRequestTimeout (node:_http_client:808:9)
+      at Object.onceWrapper (node:events:482:28)
+      at TLSSocket.emit (node:events:388:22)
+      at TLSSocket.Socket._onTimeout (node:net:476:8)
+      at listOnTimeout (node:internal/timers:556:17)
+      at processTimers (node:internal/timers:499:7)
+
+npm manifest: 
+  {
+    "name": "react-navbar-tutorial-yt",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-scripts": "3.4.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
